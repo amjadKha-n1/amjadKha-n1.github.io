@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgb(28, 60, 93);
+    color: white;
+    height: 250px;
+    font-style: italic;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header li {
+    list-style-type: none;
+    font-size: 20px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 40px;
+    width: 1000px;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;    
+}
+
+#info h1 {
+    font-size: 50px;
+}
+#info p {
+    font-size: 25px;
+}
+#about-me {
+    position: relative;
+    bottom: 40px;
+    
+}
+img {
+    width: 150px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+    object-fit: cover;
+}
+
+
+main {
+    color: rgb(28, 60, 93);
+    padding: 15px;
+    background-color: rgb(228, 215, 215);
+}
+#main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#check {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#skills ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#skills ul i{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    font-size: 110px;
+}
+
+#skills li {
+    list-style-type: none;
+}
+
+
+#projects h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#project-container {
+    display: flex;
+    justify-content: center;
+}
+
+#projects .project1:hover{
+    background-color: rgb(149, 157, 142);
+}
+
+.project1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 10px 5px 6px;
+    background-color: rgb(198, 207, 189);
+}
+
+.project1 a {
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(202, 168, 168);
+    padding: 15px;
+    color: rgb(28, 60, 93);
+
+}
+footer h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#resume .resume-container{
+    text-align: center;
+}
+#resume a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: rgb(218, 239, 197);
+}
+#resume a:hover {
+    background-color: rgb(164, 171, 156);
+}
+
+#contact a{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(27, 40, 14);
+    text-transform: uppercase;
+}
